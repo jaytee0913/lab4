@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title> Exercise 3: Web Store </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 		<script type="text/javascript"
                  src="formChecker.js">
     </script>
@@ -10,7 +11,7 @@
           
 
 
-           <form name="myForm">
+           <form name="myForm" action="customerBackend.php" method="post" onsubmit="return inputInfor()">
            Enter username:<br>
            <input type="email" name="username" required>
            <br>
@@ -31,7 +32,7 @@
            <input type="radio" name="shippingOption" value="50"> $50.00 over night<br>
            <input type="radio" name="shippingOption" value="5"> $5.00 three day<br>
            <br><br>
-           <button onclick="inputInfo()">Submit</button>
+           <input type="submit">
           </form>
 	</body>
 </html>

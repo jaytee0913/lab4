@@ -1,0 +1,14 @@
+table, th, td 
+{
+    border: 1px solid black;
+}
+
+th.colorG
+{
+	background-color: #ccffcc;
+}
+
+td.colorP
+{
+	background-color: #ccccff;
+}
