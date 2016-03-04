@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title> Exercise 3: Web Store </title>
+		<script type="text/javascript"
+                 src="formChecker.js">
+    </script>
+	</head>
+
+	<body>
+          
+
+
+           <form name="myForm">
+           Enter username:<br>
+           <input type="email" name="username" required>
+           <br>
+           Enter password:<br>
+           <input type="password" name="password" required>
+           <br>
+           Enter amount of apples ($2.50/each): <br>
+           <input type="number" name="numApples" required>
+           <br>
+           Enter amount of oranges ($2.00/each): <br>
+           <input type="number" name="numOranges" required>
+           <br>
+           Enter amount of bananas ($1.00/each): <br>
+           <input type="number" name="numBananas" required>
+           <br><br>
+           Shipping options: <br>
+           <input type="radio" name="shippingOption" value="0"> Free 7 day<br>
+           <input type="radio" name="shippingOption" value="50"> $50.00 over night<br>
+           <input type="radio" name="shippingOption" value="5"> $5.00 three day<br>
+           <br><br>
+           <button onclick="inputInfo()">Submit</button>
+          </form>
+	</body>
+</html>
